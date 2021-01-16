@@ -1,0 +1,73 @@
+2021-01-17 02:27:10 INFO  DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2021-01-17 02:27:10 DEBUG DispatcherServlet:525 - Detected StandardServletMultipartResolver
+2021-01-17 02:27:10 DEBUG DispatcherServlet:541 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-01-17 02:27:10 INFO  DispatcherServlet:546 - Completed initialization in 10 ms
+2021-01-17 02:27:10 DEBUG DispatcherServlet:91 - GET "/test/users", parameters={}
+2021-01-17 02:27:10 DEBUG RequestMappingHandlerMapping:420 - Mapped to public java.util.List<org.example.pojo.Users> org.example.controller.TestController.usersList()
+2021-01-17 02:27:10 INFO  ServiceLogAspect:40 - ====== 开始执行 class org.example.service.impl.UserServiceImpl.list ======
+2021-01-17 02:27:10 DEBUG DataSourceUtils:114 - Fetching JDBC Connection from DataSource
+2021-01-17 02:27:10 DEBUG HikariConfig:1020 - DateSourceHikariCP - configuration:
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - allowPoolSuspension.............false
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - autoCommit......................true
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - catalog.........................none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - connectionInitSql...............none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - connectionTestQuery............."SELECT 1"
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - connectionTimeout...............30000
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - dataSource......................none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - dataSourceClassName.............none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - dataSourceJNDI..................none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - dataSourceProperties............{password=<masked>}
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - driverClassName................."com.mysql.jdbc.Driver"
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - healthCheckProperties...........{}
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - healthCheckRegistry.............none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - idleTimeout.....................600000
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - initializationFailTimeout.......1
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - isolateInternalQueries..........false
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/foodie-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - leakDetectionThreshold..........0
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - maxLifetime.....................1800000
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - maximumPoolSize.................20
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - metricRegistry..................none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - metricsTrackerFactory...........none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - minimumIdle.....................5
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - password........................<masked>
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - poolName........................"DateSourceHikariCP"
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - readOnly........................false
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - registerMbeans..................false
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - scheduledExecutor...............none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - schema..........................none
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - threadFactory...................internal
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - transactionIsolation............default
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - username........................"root"
+2021-01-17 02:27:10 DEBUG HikariConfig:1052 - validationTimeout...............5000
+2021-01-17 02:27:10 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-01-17 02:27:10 DEBUG HikariPool:545 - DateSourceHikariCP - Added connection com.mysql.jdbc.JDBC4Connection@47ae3c3c
+2021-01-17 02:27:10 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-01-17 02:27:10 INFO  ServiceLogAspect:56 - ====== 执行结束，耗时：232 毫秒 ======
+2021-01-17 02:27:10 DEBUG RequestResponseBodyMethodProcessor:268 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-17 02:27:10 DEBUG RequestResponseBodyMethodProcessor:91 - Writing [[org.example.pojo.Users@1ab88e06, org.example.pojo.Users@1f8f4284, org.example.pojo.Users@67cd5ca6,  (truncated)...]
+2021-01-17 02:27:10 DEBUG DispatcherServlet:1130 - Completed 200 OK
+2021-01-17 02:27:10 DEBUG HikariPool:411 - DateSourceHikariCP - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-01-17 02:27:10 DEBUG HikariPool:411 - DateSourceHikariCP - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-01-17 02:27:10 DEBUG HikariPool:709 - DateSourceHikariCP - Added connection com.mysql.jdbc.JDBC4Connection@25095646
+2021-01-17 02:27:10 DEBUG HikariPool:709 - DateSourceHikariCP - Added connection com.mysql.jdbc.JDBC4Connection@5121d851
+2021-01-17 02:27:11 DEBUG HikariPool:709 - DateSourceHikariCP - Added connection com.mysql.jdbc.JDBC4Connection@33e81ce7
+2021-01-17 02:27:11 DEBUG HikariPool:709 - DateSourceHikariCP - Added connection com.mysql.jdbc.JDBC4Connection@4d645afa
+2021-01-17 02:27:11 DEBUG HikariPool:411 - DateSourceHikariCP - After adding stats (total=5, active=0, idle=5, waiting=0)
+2021-01-17 02:27:31 DEBUG AnnotationConfigServletWebServerApplicationContext:1002 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ae50ce6, started on Sun Jan 17 02:26:28 CST 2021
+2021-01-17 02:27:31 DEBUG RedisMessageListenerContainer:229 - Stopped RedisMessageListenerContainer
+2021-01-17 02:27:31 DEBUG AnnotationMBeanExporter:451 - Unregistering JMX-exposed beans on shutdown
+2021-01-17 02:27:31 DEBUG AnnotationMBeanExporter:185 - Unregistering JMX-exposed beans
+2021-01-17 02:27:31 INFO  ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-17 02:27:31 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2021-01-17 02:27:31 DEBUG HikariPool:411 - DateSourceHikariCP - Before shutdown stats (total=5, active=0, idle=5, waiting=0)
+2021-01-17 02:27:31 DEBUG PoolBase:129 - DateSourceHikariCP - Closing connection com.mysql.jdbc.JDBC4Connection@47ae3c3c: (connection evicted)
+2021-01-17 02:27:31 DEBUG PoolBase:129 - DateSourceHikariCP - Closing connection com.mysql.jdbc.JDBC4Connection@25095646: (connection evicted)
+2021-01-17 02:27:31 DEBUG PoolBase:129 - DateSourceHikariCP - Closing connection com.mysql.jdbc.JDBC4Connection@5121d851: (connection evicted)
+2021-01-17 02:27:31 DEBUG PoolBase:129 - DateSourceHikariCP - Closing connection com.mysql.jdbc.JDBC4Connection@33e81ce7: (connection evicted)
+2021-01-17 02:27:31 DEBUG PoolBase:129 - DateSourceHikariCP - Closing connection com.mysql.jdbc.JDBC4Connection@4d645afa: (connection evicted)
+2021-01-17 02:27:31 DEBUG HikariPool:411 - DateSourceHikariCP - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-01-17 02:27:31 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2021-01-17 02:27:31 DEBUG RedisClient:437 - Initiate shutdown (100, 100, MILLISECONDS)
+2021-01-17 02:27:31 DEBUG DefaultClientResources:601 - Initiate shutdown (0, 2, SECONDS)
+2021-01-17 02:27:31 DEBUG DefaultEventLoopGroupProvider:202 - Initiate shutdown (0, 2, SECONDS)

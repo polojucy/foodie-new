@@ -10,5 +10,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>foodie-service</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>foodie-pojo</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>foodie-mapper</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

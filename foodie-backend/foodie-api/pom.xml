@@ -15,11 +15,18 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>foodie-service</artifactId>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>foodie-common</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>foodie-pojo</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 </project>
